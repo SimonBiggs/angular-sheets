@@ -10,6 +10,7 @@
 /** Map relative paths to URLs. */
 const map:any = {
   '@angular2-material': 'vendor/@angular2-material',
+  'angular2-in-memory-web-api': 'vendor/angular2-in-memory-web-api'
 };
 
 /** User packages configuration. */
@@ -18,7 +19,8 @@ const packages: any = {
   '@angular2-material/button': {main: 'button.js'},
   '@angular2-material/sidenav': {main: 'sidenav.js'},
   '@angular2-material/toolbar': {main: 'toolbar.js'},
-  '@angular2-material/list': {main: 'list.js'}
+  '@angular2-material/list': {main: 'list.js'},
+  'angular2-in-memory-web-api': { main: 'index.js', defaultExtension: 'js' }
 };
 
 
